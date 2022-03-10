@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int aninteger;
 	char acharacter;
+	int aninteger;
 	long along;
 	long long alonglong;
 	float afloat;
