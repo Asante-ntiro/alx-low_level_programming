@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* Main - Prints quote
+*  Returns zero on success
+*/
+
+
 
 int main(void)
 {
