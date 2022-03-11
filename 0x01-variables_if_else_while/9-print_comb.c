@@ -1,24 +1,29 @@
-nclude <stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 
 /**
-* main - Print all possible combinations of single digit numbers
-*
-* Return: Always 0 (Success)
+ * main - writes 0-9
+ * @void: Empty parameter list for main.
+ *
+ * Description: Writes 0-9 with comma and space
+ *
+ * Return: 0 for success
 */
 int main(void)
 {
-		int number;
+	int num = 48;
 
-		for (number = 0; number <= 9; number++)
+	while (num < 58)
+	{
+		putchar(num);
+		if (num < 57)
 		{
-		putchar(number + '0');
-		if (number < 9)
-		{
-		putchar(',');
-		putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
-		}
-		putchar('\n');
-
+		num++;
+	}
+	putchar('\n');
 	return (0);
 }
