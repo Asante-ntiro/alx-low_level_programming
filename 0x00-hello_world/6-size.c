@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-/* Main - Prints quote
-*  Returns zero on success
-*/
-
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-	int aninteger;
 	char acharacter;
+	int aninteger;
 	long along;
 	long long alonglong;
 	float afloat;
